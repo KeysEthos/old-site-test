@@ -1,7 +1,7 @@
 # BuzzApp
 Buzz mobile application Enviroment SetUp (node.js, Mongo, express)  
 
-Update linux AWS:
+Update linux AWS
   # sudo pip update
   
 Install NPM and Node.js
@@ -13,12 +13,11 @@ Install NPM and Node.js
     
     # git clone git://github.com/joyent/node.git
   
-Move to node directory: 
+Move to node directory 
   
     # cd node
   
-git checkout with stable express version and install
-   availbe git versions
+git checkout with stable express version and install availbe git versions
     # git tag -l 
     # git checkout v0.12.0
     # ./configure
@@ -30,7 +29,8 @@ Add user path to sudoers
     # sudo su
     # vim /etc/sudoers
   
-Edit path: Path = secure_path = /sbin:/bin:/usr/bin
+Edit path: 
+  # Path = secure_path = /sbin:/bin:/usr/bin
 Add to the end
     # :/usr/local/bin
   
