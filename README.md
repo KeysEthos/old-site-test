@@ -6,8 +6,8 @@ Update linux AWS:
   
 Install NPM and Node.js
 
-  # sudo yum install gcc-c++ make
-  # sudo yum install openssl-devel
+    # sudo yum install gcc-c++ make
+    # sudo yum install openssl-devel
   
   Install Git and Clone node repo
     
@@ -15,37 +15,37 @@ Install NPM and Node.js
   
 Move to node directory: 
   
-  # cd node
+    # cd node
   
 git checkout with stable express version and install
    availbe git versions
     # git tag -l 
-  # git checkout v0.12.0
-  # ./configure
-  # make
-  # sudo make install
+    # git checkout v0.12.0
+    # ./configure
+    # make
+    # sudo make install
   
 Add user path to sudoers
 
-  # sudo su
-  # vim /etc/sudoers
+    # sudo su
+    # vim /etc/sudoers
   
 Edit path: Path = secure_path = /sbin:/bin:/usr/bin
 Add to the end
-  # :/usr/local/bin
+    # :/usr/local/bin
   
 Install express in desired directory
 
-  # sudo npm install express-generator -g
+    # sudo npm install express-generator -g
   
 express scaff setup
 
-  #espress fileName
+    #espress fileName
   
   
 Install MongoDb
-  # sudo su
-  # vim /etc/yum.repos.d/mongodb-org-3.0.repo
+    # sudo su
+    # vim /etc/yum.repos.d/mongodb-org-3.0.repo
     Add file content as follows: no (*)
     *
       [mongodb-org-3.2]
@@ -54,15 +54,15 @@ Install MongoDb
       gpgcheck=0
       enabled=1
     *
-  # write/quit with {!} 
+      # write/quit with {!} 
   
   install command
   
-  # sudo yum install -y mongodb-org
+    # sudo yum install -y mongodb-org
   
 Make data directory
 
-  # mkdir -p /data/db
+    # mkdir -p /data/db
   
 
   
