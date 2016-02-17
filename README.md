@@ -2,7 +2,7 @@
 Buzz mobile application Enviroment SetUp (node.js, Mongo, express)  
 
 Update linux AWS
-  # sudo pip update
+  # sudo yum update
   
 Install NPM and Node.js
 
@@ -10,7 +10,7 @@ Install NPM and Node.js
     # sudo yum install openssl-devel
   
   Install Git and Clone node repo
-    
+    # sudo yum install git
     # git clone git://github.com/joyent/node.git
   
 Move to node directory 
