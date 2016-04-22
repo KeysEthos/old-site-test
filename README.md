@@ -1,5 +1,4 @@
-# BuzzApp
-Buzz mobile application Enviroment SetUp (node.js, Mongo, express)  
+# mobile application Enviroment SetUp (node.js, Mongo, express)  
 
 Update linux AWS
   # sudo yum update
